@@ -24,4 +24,18 @@ Solutions
  1. Provide an online application form for parents to complete.
  2. Provide a blog where they can post questions and be answered.
  3. Provide all the contact info of the school.
- 4. Post the meetings on the app and have alert parents the day before the meeting. 
+ 4. Post the meetings on the app and have alert parents the day before the meeting.
+
+Specifications
+Functionality
+Front-End
+ 1. The user will be able to apply.
+ 2. The user will be able to see all the upcoming meetings.
+ 3. The user will be able to post questions on the blog.
+ 4. The user will be able to view the school gallery.
+ 5. The user will be able to get updated on sports activities around the school.
+ 
+Software Engineering
+ - Agile Methodology will be used for the entire period of the project.
+ 
+ 
