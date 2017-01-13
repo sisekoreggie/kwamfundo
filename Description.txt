@@ -35,7 +35,14 @@ Front-End
  4. The user will be able to view the school gallery.
  5. The user will be able to get updated on sports activities around the school.
  
+Back-End
+ 1. The admin will be able to view all applications and make decisions about them.
+ 2. The admin will be able to delete users that are violating other people right 
+	e.g Insulting others in the platform.
+ 
 Software Engineering
  - Agile Methodology will be used for the entire period of the project.
  
+Technologies to be used
+ 1. Android Studio
  
