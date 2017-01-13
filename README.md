@@ -1,0 +1,1 @@
+This is the kwamfumdo mobile application project development. please read the Description file
