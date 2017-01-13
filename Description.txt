@@ -1,0 +1,12 @@
+This is my own personal project.
+
+Personal Project Description
+
+I wanna create an app for the Kwamfundo Senior Secondary School, 
+which can allow parents to register or apply for their children in the school. 
+Even though the main purpose and inspiration behind the whole app creation is the online application form, 
+the app will also have information about the school, staff like meetings, 
+sport outings, teacher contact details, school contact details and mission, 
+overall report of the performance for learners, 
+and also the app will have an online interactive platform from which learners can ask questions about problems in a blog, 
+say specifically in a Mathematics section and then any teacher or learner or other students who registered as tutors in the app can answer his/her question.
