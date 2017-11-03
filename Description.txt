@@ -1,0 +1,48 @@
+This is my own personal project.
+
+Personal Project Description
+
+I wanna create an app for the Kwamfundo Senior Secondary School, 
+which can allow parents to register or apply for their children in the school. 
+Even though the main purpose and inspiration behind the whole app creation is the online application form, 
+the app will also have information about the school, staff like meetings, 
+sport outings, teacher contact details, school contact details and mission, 
+overall report of the performance for learners, 
+and also the app will have an online interactive platform from which learners can ask questions about problems in a blog, 
+say specifically in a Mathematics section and then any teacher or learner or other students who registered as 
+tutors in the app can answer his/her question.
+
+Goals 
+Problem Space
+ 1. Parents have to go to long lines in January to apply for their children thus they 
+    have to take a day or more off from their work.
+ 2. Some learners while practising/studying at home would need assistance on what they are currently studying
+ 3. Some parents dont have contact details of the school
+ 4. Some parents forget some meetings, as they are ussually given printed letters.
+ 
+Solutions
+ 1. Provide an online application form for parents to complete.
+ 2. Provide a blog where they can post questions and be answered.
+ 3. Provide all the contact info of the school.
+ 4. Post the meetings on the app and have alert parents the day before the meeting.
+
+Specifications
+Functionality
+Front-End
+ 1. The user will be able to apply.
+ 2. The user will be able to see all the upcoming meetings.
+ 3. The user will be able to post questions on the blog.
+ 4. The user will be able to view the school gallery.
+ 5. The user will be able to get updated on sports activities around the school.
+ 
+Back-End
+ 1. The admin will be able to view all applications and make decisions about them.
+ 2. The admin will be able to delete users that are violating other people right 
+	e.g Insulting others in the platform.
+ 
+Software Engineering
+ - Agile Methodology will be used for the entire period of the project.
+ 
+Technologies to be used
+ 1. Android Studio
+ 
