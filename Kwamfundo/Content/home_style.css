@@ -1,0 +1,10 @@
+﻿.bodyContainer {
+    border: 1px solid black;
+    width: 100%;
+    min-height: 50px;
+    height: 100%;
+}
+
+.container img {
+    width: 100%;
+}
