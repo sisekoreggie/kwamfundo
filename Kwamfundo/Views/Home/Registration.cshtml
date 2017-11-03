@@ -1,0 +1,161 @@
+﻿
+@{
+    ViewBag.Title = "Registration";
+}
+
+<h2>@ViewBag.Title.</h2>
+
+<form class="form-horizontal">
+    <h4> Learner Details </h4>
+    <hr />
+    <div class="form-group">
+        <label for="firstName" class="col-sm-2 control-label">First Name</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="firstName" placeholder="Name">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="lastName" class="col-sm-2 control-label">Last Name</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="lastName" placeholder="Name">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="gender" class="col-sm-2 control-label">Gender</label>
+        <div class="col-sm-10">
+            <label for="gender" class="radio-inline">
+                <input type="radio" name="optradio" id="gender">Male
+            </label>
+            <label for="gender" class="radio-inline">
+                <input type="radio" name="optradio" id="gender">Female
+            </label>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="age" class="col-sm-2 control-label">Age</label>
+        <div class="col-sm-10">
+            <input type="number" class="form-control" id="age" placeholder="Age">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="dob" class="col-sm-2 control-label">D.O.B</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="idNo" placeholder="D.O.B">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="idNo" class="col-sm-2 control-label">ID Number</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="idNo" placeholder="Identity Number">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="grade" class="col-sm-2 control-label">Grade</label>
+        <div class="col-sm-10">
+            <input type="number" class="form-control" id="grade" placeholder="Grade">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+        <div class="col-sm-10">
+            <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="lastSchool" class="col-sm-2 control-label">Previous School</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="lastSchool" placeholder="Previous School">
+        </div>
+    </div>
+
+    <h4> Parent/Guardian Details </h4>
+    <hr />
+
+    <div class="form-group">
+        <label for="motherName" class="col-sm-2 control-label">Mother's Name</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="motherName" placeholder="Mother's Name">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="motherCell" class="col-sm-2 control-label">Mother's Cell Number</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="motherCell" placeholder="Mother's Cell Number">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="motherOffice" class="col-sm-2 control-label">Mother's Office/Work Number</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="motherOffice" placeholder="Mother's Office/Work Number">
+        </div>
+    </div>
+
+
+    <div class="form-group">
+        <label for="motherEmail" class="col-sm-2 control-label">Mother's Email Adress</label>
+        <div class="col-sm-10">
+            <input type="email" class="form-control" id="motherEmail" placeholder="Mother's Email Adress">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="fatherName" class="col-sm-2 control-label">Father's Name</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="fatherName" placeholder="Father's Name">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="fatherCell" class="col-sm-2 control-label">Father's Cell Number</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="fatherCell" placeholder="Father's Cell Number">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="fatherOffice" class="col-sm-2 control-label">Father's Office/Work Number</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="fatherOffice" placeholder="Father's Office/Work Number">
+        </div>
+    </div>
+
+
+    <div class="form-group">
+        <label for="fatherEmail" class="col-sm-2 control-label">Father's Email Adress</label>
+        <div class="col-sm-10">
+            <input type="email" class="form-control" id="fatherEmail" placeholder="Father's Email Adress">
+        </div>
+    </div>
+
+    <label class="btn btn-primary" for="learnerID">
+        <input id="learnerID" type="file" style="display:none"
+               onchange="$('#upload-file-info').html(this.files[0].name)">
+        Upload Learner ID/Certificate
+    </label>
+    <span class='label label-info' id="upload-file-info"></span>
+
+    <br /><br />
+
+    <label class="btn btn-primary" for="learnerReport">
+        <input id="learnerReport" type="file" style="display:none"
+               onchange="$('#upload-file-info').html(this.files[0].name)">
+        Upload Learner Report
+    </label>
+    <span class='label label-info' id="upload-file-info"></span>
+
+
+    <div class="checkbox">
+        <label><input type="checkbox"> Remember me</label>
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+</form>
