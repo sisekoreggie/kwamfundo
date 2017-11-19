@@ -20,16 +20,16 @@
             </div>
             <div class="navbar-collapse collapse navbar-right">
                 <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
                     <li>@Html.ActionLink("About", "About", "Home")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
                     <li>@Html.ActionLink("Events", "Events", "Home")</li>
                     <li>@Html.ActionLink("Registration", "Registration", "Home")</li>
+                    <li>@Html.ActionLink("Chatroom", "Chatroom", "Home")</li>
                 </ul>
             </div>
         </div>
     </div>
-    <div class="container body-content">
+    <div class="container"> <!-- class also " body-content" was removed -->
         @RenderBody()
         <hr />
         <footer>

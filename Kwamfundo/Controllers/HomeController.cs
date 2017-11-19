@@ -39,5 +39,10 @@ namespace Kwamfundo.Controllers
         {
              return View();
         }
+
+        public ActionResult Chatroom()
+        {
+            return View();
+        }
     }
 }
